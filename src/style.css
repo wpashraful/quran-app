@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    max-width: 800px;
+    @apply: mx-auto;
+}
+.ayah {
+    direction: rtl;
+}
+.icon {
+    background-image: url("./assets/frame.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.arabic-text{
+    font-family: 'Noto Naskh Arabic', serif;
+
+}
+.arrow{
+    -webkit-appearance: none;
+    appearance: none;
+
+}
